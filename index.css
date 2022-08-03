@@ -89,8 +89,9 @@ h1,h2,h3{
         padding-right:0;
     }
     #header h2{
+        font-family: 'Courier New', Courier, monospace;
         padding-top: 8px;
-        font-size: 16px ;
+        font-size: 14px ;
         padding-left: 0;
         padding-right:0;
     }
