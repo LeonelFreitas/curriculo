@@ -54,11 +54,11 @@ h1,h2,h3{
     border-radius: 15px;
     padding: 20px;
 }
-@media screen and (min-width:350px){
+@media screen and (max-width:1024px){
     
     #header{
         background-color: rgb(79, 143, 238);
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 10px;
         font-family: 'Hubballi', cursive; 
         text-align: center;
@@ -67,7 +67,7 @@ h1,h2,h3{
     #nameAndTitle{
         background-color: white;
         width: 250px;
-        height: 50px;
+        height: 70px;
         margin:0 auto;
         text-align: center;
     }
@@ -84,7 +84,7 @@ h1,h2,h3{
 
     #header h1 {
         font-size: 21px;
-        padding-top:5px ;
+        padding-top:15px ;
         padding-left: 0;
         padding-right:0;
     }
