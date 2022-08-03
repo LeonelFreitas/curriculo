@@ -28,16 +28,19 @@ h1,h2,h3{
    width: 30px; 
    color: rgb(79, 143, 238);
 }
-#container{
+
+.fdp{
     display:grid;
-    grid-template-columns: 30% auto;
+    grid-template-columns:30% auto;
     grid-column-gap: 20px;
 }
+
 #sidebar, #content{
-    display: flex;  
+    display:flex;  
     flex-direction: column;
     row-gap: 20px;          
 }
+
 .card h3{
     font-family: 'Hubballi', cursive;
 }
