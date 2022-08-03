@@ -54,3 +54,64 @@ h1,h2,h3{
     border-radius: 15px;
     padding: 20px;
 }
+@media screen and (min-width:350px){
+    
+    #header{
+        background-color: rgb(79, 143, 238);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: 'Hubballi', cursive; 
+        text-align: center;
+    }
+    
+    #nameAndTitle{
+        background-color: white;
+        width: 250px;
+        height: 50px;
+        margin:0 auto;
+        text-align: center;
+    }
+    
+    #nameAndTitle h1,h2{ 
+        margin: 0;
+    }
+    
+    h1,h2,h3{
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    #header h1 {
+        font-size: 21px;
+        padding-top:5px ;
+        padding-left: 0;
+        padding-right:0;
+    }
+    #header h2{
+        font-size: 16px ;
+    }
+
+    .fdp{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #sidebar, #content{
+        display:flex;  
+        flex-direction: column;
+        row-gap: 20px; 
+        padding-bottom: 20px;         
+    }
+    
+    .card h3{
+        font-family: 'Hubballi', cursive;
+    }
+    
+    .card{
+        font-family: Montserrat;
+        border: 1px solid rgb(207, 204, 204);
+        border-radius: 15px;
+        padding: 10px;
+    }
+}
