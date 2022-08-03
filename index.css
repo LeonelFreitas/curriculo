@@ -33,6 +33,9 @@ h1,h2,h3{
     display:grid;
     grid-template-columns:30% auto;
     grid-column-gap: 20px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #sidebar, #content{
