@@ -137,4 +137,10 @@ h1,h2,h3{
         border-radius: 15px;
         padding: 10px;
     }
+    .space{
+        margin-left: 15px;
+    }
+    .dentro{
+        margin-left: 15px;
+    }
 }
